@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           form{
+  width: 600px;
+    
+    
+    padding: 48px;
+    background-color: gray;
+}
+body{
+    background-image: url("C:\Users\varsh\OneDrive\Desktop\IMG_20220709_144014.png");
+  
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    float:right;
+  
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    width: 45%;
+    border-radius: 5px;
+}
+input[type="password"],input[type="email"],input[type="number"],select,input[type="date"]{
+    width: 92%;
+    border-radius: 5px;
+    
+}
+button{
+padding: 10px 25px;
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+    
+legend{
+    margin: auto;
+    font-size: x-large;
+}
+    </style>
+
+   
+</head>
+<body>
+    
+      <form>
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <div class="text1">
+                    <h2>Enter your name</h2>
+                    <input type="text" name="name" id="nm" placeholder="First name">
+                    <input type="text" name="nam" id="nm" placeholder="Surname">
+                </div>
+                <div class="password">
+                    <h2>Password</h2>
+                    <input type="password" name="password" id="pw">
+                </div>
+                <div>
+                    <h2>E-mail</h2>
+                    <input type="email" name="email" id="em">
+                </div>
+                <div>
+                    <h2>Mobile Number</h2>
+                    <input type="number" name="m.no" id="mno">
+                </div>
+                <div>
+                    <h2>Date of birth</h2>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div>
+                    <h2>Select state</h2>
+                    <select name="state" id="st">
+                        <option value="1">Telangana</option>
+                        <option value="2">Andhra pradesh</option>
+                        <option value="3">Kerala</option>
+                    </select>
+                </div>
+                <div>
+                    <h2>Blood Groups</h2>
+                    <div>
+                        <input type="checkbox" name="A+" id="html">
+                        <label for="html">A+</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="A-" id="js">
+                        <label for="js">A-</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="B+" id="js">
+                        <label for="js">B+</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="B-" id="js">
+                        <label for="js">B-</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="AB+" id="js">
+                        <label for="js">AB+</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="AB-" id="js">
+                        <label for="js">AB-</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="O+" id="js">
+                        <label for="js">O+</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="O-" id="js">
+                        <label for="js">O-</label>
+                    </div>
+                    <div>
+                        <h2>Select your Gender</h2>
+                        <div>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+        
+                </div>
+                <div>
+                    <button>Register</button>
+                </div>
+
+            </fieldset>
+        </form>
+       
+        </form>
+</body>
+</html>
